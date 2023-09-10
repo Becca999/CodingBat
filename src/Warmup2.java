@@ -2,7 +2,7 @@ public class Warmup2 {
     public String stringTimes(String str, int n){
         String str1 = "";
         for(int i = 0; i < n; i++){
-            str1+=str;
+            str1 += str;
         }
         return str1;
     }
@@ -31,7 +31,7 @@ public class Warmup2 {
         boolean y = false;
         for(int i = 0; i < str.length()-1; i++){
             if(str.charAt(i) == 'x'){
-                if(str.charAt(i+1) == 'x' && y == false){
+                if(str.charAt(i+1) == 'x' && !y){
                     x = true;
                 }
                 y = true;
@@ -57,7 +57,7 @@ public class Warmup2 {
     }
     public int last2(String str){
         if(str.length() < 3) return 0;
-        String sub = str.substring(str.length()-2, str.length());
+        String sub = str.substring(str.length()-2);
         int count = 0;
         for(int i = 0; i < str.length()-2; i++){
             if(sub.equals(str.substring(i, i+2))){
@@ -68,8 +68,8 @@ public class Warmup2 {
     }
     public int arrayCount9(int[] nums){
         int count = 0;
-        for(int i = 0;i < nums.length; i++){
-            if(nums[i] == 9){
+        for (int num : nums) {
+            if (num == 9) {
                 count++;
             }
         }

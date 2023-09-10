@@ -117,6 +117,66 @@ public class Main {
         System.out.println("has271: " + wm2.has271(arr2));
 
 
+        String1 string1 = new String1();
+        String s = "{{}}";
+
+
+        //String1
+        //helloName
+        System.out.println("helloName: " + string1.helloName(str));
+        //makeAbba
+        System.out.println("makeAbba: " + string1.makeAbba(str,str1));
+        //makeTags
+        System.out.println("makeTags: " + string1.makeTags(str, str1));
+        //makeOutWord
+        System.out.println("makeOutWord: " + string1.makeOutWord(s, str1));
+        //extraEnd
+        System.out.println("extraEnd: " + string1.extraEnd(str));
+        //firstTwo
+        System.out.println("firstTwo: " + string1.firstTwo(str));
+        //firstHalf
+        System.out.println("firstHalf: " + string1.firstHalf(str));
+        //withoutEnd
+        System.out.println("wihtoutEnd: " + string1.withoutEnd(str));
+        //comboString
+        System.out.println("comboString: " + string1.comboString(str, str1));
+        //nonStart
+        System.out.println("nonStart: " + string1.nonStart(str, str1));
+        //left2
+        System.out.println("left2: " + string1.left2(str));
+        //right2
+        System.out.println("right2: " + string1.right2(str));
+        //theEnd
+        System.out.println("theEnd: " + string1.theEnd(str, t));
+        //wihtoutEnd2
+        System.out.println("wihtouEnd2: " + string1.withoutEnd2(str));
+        //middleTwo
+        System.out.println("middleTwo: " + string1.middleTwo(str));
+        //endsLy
+        System.out.println("endsLy: " + string1.endsLy(str));
+        //nTwice
+        System.out.println("nTwice: " + string1.nTwice(str, x));
+        //twoChar
+        System.out.println("twoChar: " + string1.twoChar(str, x));
+        //middleThree
+        System.out.println("middleThree: " + string1.middleThree(str));
+        //hasBad
+        System.out.println("hasBad: " + string1.hasBad(str));
+        //atFirst
+        System.out.println("atFirst: " + string1.atFirst(str));
+        //lastChars
+        System.out.println("lastChars: " + string1.lastChars(str, str1));
+        //conCat
+        System.out.println("conCat: " + string1.conCat(str, str1));
+        //lastTwo
+        System.out.println("lastTwo: " + string1.lastTwo(str));
+        //seeColor
+        System.out.println("seeColor: " + string1.seeColor(str));
+        //frontAgain
+        System.out.println("frontAgain: " + string1.frontAgain(str));
+        //minCat
+        System.out.println("minCat: " + string1.minCat(str, str1));
+
 
 
     }
