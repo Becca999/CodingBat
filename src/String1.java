@@ -138,5 +138,60 @@ public class String1 {
         }
         return a + b.substring(bLen - aLen);
     }
+    public String extraFront(String str){
+        if(str.length() <= 1) return str + str + str;
+        String sub = str.substring(0,2);
+        return sub + sub + sub;
+    }
+    public String without2(String str){
+        if(str.length() <= 1) return str;
+        String last2 = str.substring(str.length()-2);
+        if(last2.equals(str.substring(0,2))) return str.substring(2);
+        return str;
+    }
+    public String deFront(String str){
+        String str1 = "";
+        if(str.charAt(0) == 'a'){
+            str1 += 'a';
+        }
+        if(str.charAt(1) == 'b'){
+            str1 += 'b';
+        }
+        str1 += str.substring(2);
+        return str1;
+    }
+    public String startWord(String str, String word){
+        String subWord = word.substring(1);
+        int wLen = word.length();
+        int sLen = str.length();
+        if(sLen >= wLen && str.substring(1, wLen).equals(subWord)){
+            return str.substring(0, wLen);
+        }
+        return "";
+    }
+    public String withoutX(String str){
+        if(str.length() <= 1) return "";
+        String str1 = str.substring(1, str.length()-1);
+        if(str.charAt(0) != 'x'){
+            str1 = str.charAt(0) + str1;
+        }
+        if(str.charAt(str.length()-1) != 'x'){
+            str1 += str.charAt(str.length()-1);
+        }
+        return str1;
+    }
+    public String withoutX2(String str){
+        String str1 = "";
+        for(int i = 0; i < str.length(); i++){
+            if(i == 0 && str.charAt(i) == 'x'){
+                continue;
+            }
+            if(i == 1 && str.charAt(i) == 'x'){
+                continue;
+            }
+            str1 += str.charAt(i);
+        }
+        return str1;
+    }
 }
 

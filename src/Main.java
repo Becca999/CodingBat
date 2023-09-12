@@ -176,6 +176,18 @@ public class Main {
         System.out.println("frontAgain: " + string1.frontAgain(str));
         //minCat
         System.out.println("minCat: " + string1.minCat(str, str1));
+        //extraFront
+        System.out.println("extraFront: " + string1.extraFront(str));
+        //wihtout2
+        System.out.println("wihtou2: " + string1.without2(str));
+        //deFront
+        System.out.println("deFront: " + string1.deFront(str));
+        //startWord
+        System.out.println("startWord: " + string1.startWord(str, str1));
+        //wihtoutX
+        System.out.println("wihtoutX: " + string1.without2(str));
+        //withoutX2
+        System.out.println("withoutX2: " + string1.withoutX2(str));
 
 
 
