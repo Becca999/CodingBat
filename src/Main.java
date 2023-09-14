@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -189,6 +191,63 @@ public class Main {
         //withoutX2
         System.out.println("withoutX2: " + string1.withoutX2(str));
 
+
+        Array1 arr1 = new Array1();
+        int[] nums = new int[] {6, 4, 3, 8, 6};
+
+        //Array1
+        //firstLast6
+        System.out.println("firstLast6: " + arr1.firstLast6(nums));
+        //sameFirstLast
+        System.out.println("sameFirstLast: " + arr1.sameFirstLast(nums));
+        //makePi
+        System.out.println("makePi: " + Arrays.toString(arr1.makePi()));
+        //commonEnd
+        System.out.println("commonEnd: " + arr1.commonEnd(nums, arr));
+        //sum3
+        System.out.println("sum3: " + arr1.sum3(nums));
+        //rotateLeft3
+        System.out.println("rotateLeft3: " + Arrays.toString(arr1.rotateLeft3(nums)));
+        //reverse3
+        System.out.println("reverse3: " + Arrays.toString(arr1.reverse3(nums)));
+        //maxEnd3
+        System.out.println("maxEnd3: " + Arrays.toString(arr1.maxEnd3(nums)));
+        //sum2
+        System.out.println("sum2: " + arr1.sum2(nums));
+        //middleWay
+        System.out.println("middleWay: " + Arrays.toString(arr1.middleWay(nums, arr)));
+        //makeEnds
+        System.out.println("makeEnds: " + Arrays.toString(arr1.makeEnds(nums)));
+        //has23
+        System.out.println("has23: " + arr1.has23(nums));
+        //makeLast
+        System.out.println("makeLast: " + Arrays.toString(arr1.makeLast(nums)));
+        //double23
+        System.out.println("double23: " + arr1.double23(nums));
+        //fix23
+        System.out.println("fix23: " + Arrays.toString(arr1.fix23(nums)));
+        //start1
+        System.out.println("start1: " + arr1.start1(nums, arr));
+        //biggerTwo
+        System.out.println("biggerTwo: " + Arrays.toString(arr1.biggerTwo(nums, arr)));
+        //makeMiddle
+        System.out.println("makeMiddle: " + Arrays.toString(arr1.makeMiddle(nums)));
+        //plusTwo
+        System.out.println("plusTwo: " + Arrays.toString(arr1.plusTwo(nums, arr)));
+        //swapEnds
+        System.out.println("swapEnds: " + Arrays.toString(arr1.swapEnds(nums)));
+        //midThree
+        System.out.println("midThree: " + Arrays.toString(arr1.midThree(nums)));
+        //maxTriple
+        System.out.println("maxTriple: " + arr1.maxTriple(nums));
+        //frontPiece
+        System.out.println("frontPiece: " + Arrays.toString(arr1.frontPiece(nums)));
+        //unlucky1
+        System.out.println("unlucky1: " + arr1.unlucky1(nums));
+        //make2
+        System.out.println("make2: " + Arrays.toString(arr1.make2(nums, arr)));
+        //front11
+        System.out.println("front11: " + Arrays.toString(arr1.front11(nums, arr)));
 
 
     }

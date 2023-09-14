@@ -64,7 +64,7 @@ public class Warmup1 {
     }
     public boolean startHi(String str){
         if(str.length() < 2) return false;
-        return str.substring(0,2).equals("hi");
+        return str.startsWith("hi");
     }
     public boolean icyHot(int temp1, int temp2){
         return (temp1 < 0 && temp2 >100) || (temp1 > 100 && temp2 < 0);
@@ -95,7 +95,7 @@ public class Warmup1 {
     }
     public boolean mixStart(String str){
         if(str.length() < 3) return false;
-        if(str.substring(1, 3).equals("ix")) return true;
+        if(str.startsWith("ix", 1)) return true;
         return false;
     }
     public String startOz(String str){
@@ -152,7 +152,7 @@ public class Warmup1 {
     public String endUp(String str){
         if(str.length() <= 3) return str.toUpperCase();
         String front = str.substring(0, str.length()-3);
-        String back = str.substring(str.length()-3, str.length());
+        String back = str.substring(str.length()-3);
         return front + back.toUpperCase();
     }
     public String everyNth(String str, int n){
