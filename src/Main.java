@@ -250,5 +250,72 @@ public class Main {
         System.out.println("front11: " + Arrays.toString(arr1.front11(nums, arr)));
 
 
+
+        Logic1 logic1 = new Logic1();
+        int die1 = 6;
+        int die2 = 6;
+
+        //Logic1
+        //cigarParty
+        System.out.println("cigarParty: " + logic1.cigarParty(x, f));
+        //dateFashion
+        System.out.println("dateFashion: " + logic1.dateFashion(x, y));
+        //squirrelPlay
+        System.out.println("squirrelPlay: " + logic1.squirrelPlay(x, f));
+        //caughtSpeeding
+        System.out.println("caughtSpeeding: " + logic1.caughtSpeeding(x, f));
+        //sortaSum
+        System.out.println("sortaSum: " + logic1.sortaSum(x, y));
+        //alarmClock
+        System.out.println("alarmClock: " + logic1.alarmClock(x, f));
+        //love6
+        System.out.println("love6: " + logic1.love6(x, y));
+        //in1To10
+        System.out.println("in1To10: " + logic1.in1To10(x, f));
+        //specialEvent
+        System.out.println("specialEvent: " + logic1.specialEvent(x));
+        //more20
+        System.out.println("more20: " + logic1.more20(x));
+        //old35
+        System.out.println("old35: " + logic1.old35(x));
+        //less20
+        System.out.println("less20: " + logic1.less20(x));
+        //nearTen
+        System.out.println("nearTen: " + logic1.nearTen(x));
+        //teenSum
+        System.out.println("teenSum: " + logic1.teenSum(x, y));
+        //answerCell
+        System.out.println("answerCell: " + logic1.answerCell(f, t, f));
+        //teaParty
+        System.out.println("teaParty: " + logic1.teaParty(x, y));
+        //fizzString
+        System.out.println("fizzString: " + logic1.fizzString(str));
+        //fizzString2
+        System.out.println("fizzString2: " + logic1.fizzString2(x));
+        //twoAsOne
+        System.out.println("twoAsOne: " + logic1.twoAsOne(x, y, y));
+        //inOrder
+        System.out.println("inOrder: " + logic1.inOrder(x, y, x, f));
+        //inOrderEqual
+        System.out.println("inOrderEqual: " + logic1.inOrderEqual(x, y, x, f));
+        //lastDigit
+        System.out.println("lastDigit: " + logic1.lastDigigt(x, y, x));
+        //lessBy10
+        System.out.println("lessBy10: " + logic1.lessBy10(x, y, x));
+        //withoutDoubles
+        System.out.println("withoutDoubles: " + logic1.wihtoutDoubles(die1, die2, t));
+        //maxMod5
+        System.out.println("maxMod5: " + logic1.maxMod5(x, y));
+        //redTicket
+        System.out.println("redTicket: " + logic1.redTicket(x, y, x));
+        //greenTicket
+        System.out.println("greenTicket: " + logic1.greenTicket(x, y, x));
+        //blueTicket
+        System.out.println("blueTicket: " + logic1.blueTicket(x, y, x));
+        //shareDigit
+        System.out.println("shareDigit: " + logic1.shareDigit(x, y));
+        //sumLimit
+        System.out.println("sumLimit: " + logic1.sumLimit(x, y));
+
     }
 }
