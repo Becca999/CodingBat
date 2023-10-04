@@ -317,5 +317,31 @@ public class Main {
         //sumLimit
         System.out.println("sumLimit: " + logic1.sumLimit(x, y));
 
+
+        Logic2 logic2 = new Logic2();
+        int x1 = 3;
+        int y1 = 1;
+        int z1 = 8;
+
+        //Logic2
+        //makeBricks
+        System.out.println("makeBricks: " + logic2.makeBricks(x1, y1, z1));
+        //loneSum
+        System.out.println("loneSum: " + logic2.loneSum(x1, y1, z1));
+        //luckySum
+        System.out.println("luckySum: " + logic2.luckySum(x1, y1, z1));
+        //noTeenSum
+        System.out.println("noTeenSum: " + logic2.noTeenSum(x1, y1, z1));
+        //roundSum
+        System.out.println("roundSum: " + logic2.roundSum(x1, y1, z1));
+        //closeFar
+        System.out.println("closeFar: " + logic2.closeFar(x1, y1, z1));
+        //evenlySpaced
+        System.out.println("evenlySpaced: " + logic2.evenlySpaced(x1, y1, z1));
+        //makeChcolate
+        System.out.println("makeChocolate: " + logic2.makeChocolate(x1, y1, z1));
+
+
+
     }
 }
